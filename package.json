@@ -1,0 +1,20 @@
+{
+  "name": "govuetron",
+  "description": "Golang, VueJS & Electron CRUD Boilerplate for Platform Independent Desktop Apps",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirzaakhena/govuetron.git"
+  },
+  "author": "mirzaakhena",
+  "scripts": {
+    "install": "(cd app && npm install) && (cd ui/vue && npm install)",
+    "postinstall": "go get -d ./...",
+    "clean": "(rm -r app/node_modules) && (rm -r ui/vue/node_modules)",
+    "build": "cd ui/vue && npm run build && cp -R build/. ../../app/assets/ && mv ../../app/assets/bundle.js ../../app/assets/js/index.js",
+    "postbuild": "echo Build Ui {ui/vue}, cp bundle.js to app/assets/js/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
