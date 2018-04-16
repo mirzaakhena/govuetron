@@ -298,8 +298,7 @@ func main() {
 		})
 	})
 
-	r.Run(":8081")
-
+	go r.Run(":8081")
 	//---------
 
 	<-done //Wait for shutdown signal

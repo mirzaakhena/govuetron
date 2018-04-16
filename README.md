@@ -16,5 +16,6 @@ Use npm install script and start the application
 ```
 cd govuetron
 npm run install
+npm run build
 go run main.go
 ```

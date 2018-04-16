@@ -1,10 +1,6 @@
-ui/vue/build
-ui/vue/node_modules
-
-node_modules
-
-ui/node_modules
-app/node_modules
+build/
+node_modules/
 vendor/
-
 package-lock.json
+app/assets/js/
+*.db
