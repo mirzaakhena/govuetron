@@ -1,5 +1,5 @@
 # Govuetron
-A boilerplate for cross-platform desktop applications using Golang and Electron.
+A boilerplate for cross-platform desktop applications using Golang, Vue and Electron.
 
 ## Run
 **go**, **nodejs**, **npm** and **golang** should be available on your system.  
